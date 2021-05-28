@@ -1,0 +1,220 @@
+body
+{
+	font-family: 'Montserrat';
+	margin: 0;
+	text-align: center;
+	
+}
+/* h1,h2,h3,h4,h5,h6
+{} */
+
+p
+{
+	color: grey;
+}
+.section-heading
+{
+	font-family: 'Courgette', cursive;
+	font-size:2rem;
+	line-height: 1.5;
+}
+.big-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+	font-size: 3rem;
+}
+
+/*--container--*/
+.container-fluid
+{
+	padding: 7%/*top and bottom*/ 15%/*left and right*/;
+}
+
+/*-----sections--*/
+.coloured-section
+{
+	color: white;
+	background-color: #d9455f;
+}
+.white-section
+{
+	background-color: white;
+}
+
+
+/*-------------------NAVIGATION BAR---------------------*/
+.navbar 
+{
+	padding:0 0 6rem;
+}
+.nav-brand
+{
+	color: white;
+	font-family: "ubuntu";
+	font-size: 2rem;
+	font-weight: bold italic;
+}
+.nav-item
+{
+	padding: 0 18px;
+}
+.nav-link
+{
+	font-size: 1.2rem;
+	font-family: "Montserrat-light";
+}
+
+
+/*------------------DOWNLOAD BUTTON----------------------*/
+.download-button
+{
+	margin: 5% 3% 5% 0;
+}
+/*-------------TITTLE SECTION-----------*/
+#tittle
+{
+	
+	text-align: left;
+
+}
+#tittle .container-fluid
+{
+	padding: 3% 15% 7%;
+}
+
+
+
+/*----------------TITTLE IMAGE----------------------*/
+.tittle-image
+{ 
+	
+	transform: rotate(0.5deg);
+	padding: 0 0 17%;
+	/*z-index: -1;*  goes wrong*/
+	position: absolute;
+	right: 10%;
+}
+
+
+/*--------------FEATURES SECTION-------------------*/
+#features
+{
+	position: relative;
+	/*z-index: 1; remains same due to html ordering*/
+}
+.feature-title
+{
+	font-family: 'Piedra', cursive;
+	font-size: 1rem;
+}
+.feature-box
+{
+	padding: 5%;
+}
+.icon
+{
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+.icon:hover
+{
+	color: #ff4c68;
+}
+
+
+/*------------------TESTIMONALS---------------------*/
+#testimonials
+{
+	background-color: #ee8572;
+}
+.testimonial-image
+{
+	border-radius: 100%;
+}
+.testimonial-text
+{
+	font-family: 'Courgette', cursive;
+	font-size:2rem;
+	line-height: 1.5;
+}
+
+
+
+/*---------------------PRESS-------------------*/
+#press
+{
+	background-color: #ee8572;
+	padding-bottom: 5%;
+}
+.press-logo
+{
+	width: 199px;
+	height: 253px;
+	margin: 20px 20px 50px;
+}
+/*-------------PRICING---------------*/
+#pricing
+{
+	padding: 100px;
+}
+.pricing-tittle
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+}
+.pricing-text
+{
+	font-family: 'Courgette', cursive;
+	font-size:2rem;
+	line-height: 1.5;
+}
+.pricing-column
+{
+	padding: 3% 2%;
+}
+.pricing-button
+{
+	 
+	font-weight: italic;
+}	
+@media (max-width: 1155px)
+{
+	#tittle
+	{
+		text-align: center;
+	}
+
+	.tittle-image
+	{
+		position: static;
+		transform: rotate(0);
+	}
+
+}
+
+/*------------CALL TO ACTION-----------------*/
+
+.cta-heading
+{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+	font-size: 3rem;
+}
+.cta-button
+{
+	margin: 7% 3% 5% 0;
+}
+/*--------FOOTER-----*/
+
+.foot-icon
+{
+	margin: 4%/*top*/ 3%/*right*/ 0/*bottom*/ 0;/*left*/
+	padding-bottom: 2%;
+}
+.footer-p
+{
+	font-family: 'Piedra', cursive;
+	color: light grey;
+	font-size: 1.5rem;
+}
